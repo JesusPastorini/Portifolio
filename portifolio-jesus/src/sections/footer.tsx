@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import LogoJp from "../assets/pretoebranco.png";
+import LogoJp from "../assets/LogoJP.png";
 
 export function Footer() {
     const { t } = useTranslation();

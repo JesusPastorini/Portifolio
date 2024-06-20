@@ -16,7 +16,7 @@ export function EmailSection() {
             message: e.currentTarget.message.value,
         };
         const JSONdata = JSON.stringify(data);
-        const endpoint = "https://formspree.io/f/mkndeoyw"
+        const endpoint = "https://formspree.io/f/xblrrlgq"
 
         const options = {
             method: "POST",

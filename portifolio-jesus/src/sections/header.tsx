@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { MenuOverlay } from "../components/menu-overlay";
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from "../components/lang-button";
-import myLogo from "../assets/jpLogo.png";
+import myLogo from "../assets/LogoJP.png";
 
 export function Header() {
     const [navbarOpen, setNavbarOpen] = useState(false);
