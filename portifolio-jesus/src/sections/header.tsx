@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { MenuOverlay } from "../components/menu-overlay";
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from "../components/lang-button";
-import myLogo from "../assets/LogoJP.png";
+import myLogo from "../assets/Logo6.png";
 
 export function Header() {
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -28,8 +28,8 @@ export function Header() {
     //ajuste
     return (
         <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-            <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-                <img src={myLogo} alt="Logo Jesus" width={70} height={70} />
+            <div className="flex container lg:py-2 flex-wrap items-center justify-between mx-auto px-4 py-2">
+                <img src={myLogo} alt="Logo Jesus" width={170} height={170} />
                 <div className="mobile-menu flex md:hidden items-center justify-center gap-3">
                     <LanguageSelector />
                     {!navbarOpen ? (
