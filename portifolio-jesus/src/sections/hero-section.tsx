@@ -3,8 +3,8 @@ import fotoJp from "../assets/fotoJP.jpeg";
 import { TypeAnimation } from "react-type-animation";
 import { AppButton } from "../components/app-button";
 import { useTranslation } from "react-i18next";
-import jpCVPt from "../assets/Curriculo-Jesus.pdf";
-import jpCVEn from "../assets/JesusCurriculo(English).pdf";
+import jpCVPt from "../assets/CurriculoJesusIA.pdf";
+import jpCVEn from "../assets/JESUS-English.pdf";
 import i18n from "../i18n";
 
 export function HeroSection() {
