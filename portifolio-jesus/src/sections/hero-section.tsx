@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import fotoJp from "../assets/fotoJP.jpeg";
+import fotoJp from "../assets/myphoto.jpeg";
 import { TypeAnimation } from "react-type-animation";
 import { AppButton } from "../components/app-button";
 import { useTranslation } from "react-i18next";
