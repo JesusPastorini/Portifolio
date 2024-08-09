@@ -10,10 +10,20 @@ import LinkTreeBia from '../assets/bonusDropdown.gif';
 import MeuPortfolio from "../assets/portifolioJP.png";
 import emConstrucao from "../assets/site-construcao.jpg";
 import shoppingCart from "../assets/shoppingC.png";
+import manosGrill from "../assets/manosgrill1.png";
 
 export function Projects() {
     const { t } = useTranslation();
     const projectsData = [
+        {
+            id: 7,
+            title: t('app.project7_title'),
+            description: t('app.project7_description'),
+            image: manosGrill,
+            tag: [t('app.tag_projects')],
+            gitUrl: "https://github.com/JesusPastorini/RestauranteManosGrill",
+            previewUrl: "https://restaurante-manos-grill.vercel.app/",
+        },
         {
             id: 1,
             title: t('app.project1_title'),

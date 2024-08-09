@@ -24,6 +24,8 @@
         "project4_description": "Creating my responsive portfolio with React.Js + Vite + TailwindCSS.",
         "project5_title": "Shopping Cart",
         "project5_description": "The Shopping Cart project is a dynamic application developed as part of the Trybe curriculum. Using the Mercado Livre API, the objective is to create a fully functional shopping cart, where products are dynamically displayed and can be added or removed.",
+        "project7_title": "RestauranteManosGrill",
+        "project7_description": "A web page presented in a direct and eye-catching manner, maintaining elegance, in addition to directing the user to social networks or to the main focus, which is ifood. The website was created with responsiveness and a modified design for the mobile version.",
         "your_email": "Your email",
         "subject": "Subject",
         "message": "Message",
